@@ -1,26 +1,42 @@
+name: Build and Deploy Jekyll
 
-image: ruby:3.2.2
+on:
+  push:
+    branches:
+      - main  # Set your default branch here
 
-before_script:
-  - bundle install
-  
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-test:
-  stage: test
-  script:
-  - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-pages:
-  stage: deploy
-  script:
-  - bundle exec jekyll build -d public
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.2.2  # Set the Ruby version you are using
+
+    - name: Cache Gems
+      uses: actions/cache@v2
+      with:
+        path: vendor/bundle
+        key: ${{ runner.OS }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.OS }}-gems-
+
+    - name: Install Dependencies
+      run: |
+        gem install bundler
+        bundle config set --local path 'vendor/bundle'
+        bundle install --jobs 4 --retry 3
+
+    - name: Build Site
+      run: bundle exec jekyll build
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
