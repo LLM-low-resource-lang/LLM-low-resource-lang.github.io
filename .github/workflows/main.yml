@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
@@ -19,7 +19,7 @@ jobs:
         ruby-version: 3.2.2  # Set the Ruby version you are using
 
     - name: Cache Gems
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: vendor/bundle
         key: ${{ runner.OS }}-gems-${{ hashFiles('**/Gemfile.lock') }}
