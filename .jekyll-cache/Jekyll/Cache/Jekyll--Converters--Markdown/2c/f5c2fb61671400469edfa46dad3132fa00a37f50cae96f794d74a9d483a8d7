@@ -1,0 +1,86 @@
+I"x<h1 id="welcome-to-llms-for-low-resource-languages-in-multilingual-multimodal-and-dialectal-settings-tutorial">Welcome to “LLMs for Low Resource Languages in Multilingual, Multimodal and Dialectal Settings” Tutorial</h1>
+
+<p>The recent breakthroughs in Artificial Intelligence (AI) can be attributed to the remarkable performance of Large Language Models (LLMs) across a spectrum of research areas (e.g., machine translation, question-answering, automatic speech recognition, text-to-speech generation) and application domains (e.g., business, law, healthcare, education, and psychology). The success of these LLMs largely depends on specific training techniques, most notably instruction tuning, RLHF, and subsequent prompting to achieve the desired output. As the development of such LLMs continues to increase in both closed and open settings, evaluation has become crucial for understanding their generalization capabilities across different tasks, modalities, languages, and dialects. This evaluation process is tightly coupled with prompting, which plays a key role in obtaining better outputs. There has been attempts to evaluate such models focusing on diverse tasks, languages, and dialects, which suggests that the capabilities of LLMs are still limited for medium-to-low-resource languages due to the lack of representative datasets. The tutorial offers an overview of this emerging research area. We explore the capabilities of LLMs in terms of their performance, zero- and few-shot settings, fine-tuning, instructions tuning, and close vs. open models with a special emphasis on low-resource settings. In addition to LLMs for standard NLP tasks, we will focus on speech and multimodality.</p>
+
+<div id="task_id_1" class="task-single ">
+    <div class="task-content">
+        <h2>Reading List</h2>
+       <div class="content">
+            <p><a href="reading_list">Reading List</a></p>
+
+       </div>
+    </div>
+</div>
+
+<div id="task_id_1" class="task-single ">
+    <div class="task-content">
+        <h2>Table of Content</h2>
+       <div class="content">
+            <ul>
+  <li><a href="table_of_content">Schedule</a></li>
+</ul>
+
+       </div>
+    </div>
+</div>
+
+<div id="task_id_1" class="task-single ">
+    <div class="task-content">
+        <h2>Venue</h2>
+       <div class="content">
+            <p>At EACL 2023</p>
+
+       </div>
+    </div>
+</div>
+
+<div id="task_id_2" class="task-single ">
+    <div class="task-content">
+        <h2>Important Dates</h2>
+       <div class="content">
+            <p>TBA</p>
+
+       </div>
+    </div>
+</div>
+
+<div id="task_id_3" class="task-single ">
+    <div class="task-content">
+        <h2>Contact</h2>
+       <div class="content">
+            <p>TBA
+<!-- Slack: [channel](https://join.slack.com/t/araieval/shared_invite/zt-20rzypxs7-LuHUsw8ltj7ylae9c4I7XQ)   -->
+<!-- Email: [araieval@googlegroups.com](mailto:araieval@googlegroups.com) --></p>
+
+       </div>
+    </div>
+</div>
+
+<div id="task_id_5" class="task-single ">
+    <div class="task-content">
+        <h2>Citation</h2>
+       <div class="content">
+            <p><strong>Please cite the following papers.</strong></p>
+
+       </div>
+    </div>
+</div>
+
+<div id="task_id_7" class="task-single ">
+    <div class="task-content">
+        <h2>Speakers</h2>
+       <div class="content">
+            <ul>
+  <li><a href="https://sites.google.com/site/firojalam/">Firoj Alam</a>, Qatar Computing Research Institute, HBKU</li>
+  <li><a href="http://shammur.one/">Shammur Absar Chowdhury</a>, Qatar Computing Research Institute, HBKU</li>
+  <li><a href="https://scholar.google.nl/citations?user=EhFf3j0AAAAJ&amp;hl=en">Sabri Boughorbel</a>, Qatar Computing Research Institute, HBKU</li>
+  <li><a href="https://scholar.google.com/citations?user=GtvNhM8AAAAJ&amp;hl=en&amp;oi=ao">Maram Hasanain</a>, Qatar Computing Research Institute, HBKU</li>
+</ul>
+
+<p>Please check the bio for each <a href="speakers">Speakers</a></p>
+
+       </div>
+    </div>
+</div>
+
+:ET
