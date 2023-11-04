@@ -1,5 +1,5 @@
 ---
-title: "Important Dates"
+title: "Date"
 date: 2022-01-01T12:33:46+10:00
 featured: true
 weight: 2
@@ -12,4 +12,4 @@ layout: content
 ---
 
 
-TBA
+Thursday, 21 March 2024

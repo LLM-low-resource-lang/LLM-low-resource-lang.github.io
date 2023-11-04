@@ -11,4 +11,6 @@ lin: "https://linkdin.com"
 layout: content
 ---
 
-At EACL 2023
+[EACL 2024](https://2024.eacl.org/)
+
+It will take place at the Hotel Radisson Blu, St. Julians, in Malta
