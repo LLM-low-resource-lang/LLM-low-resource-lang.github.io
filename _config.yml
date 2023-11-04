@@ -1,3 +1,5 @@
+baseurl: "/LLM-low-resource-lang"
+url: "LLM-low-resource-lang.github.io"
 baseurl: ''
 permalink: /:title/
 title: 'LLMs for Low Resource Languages'
