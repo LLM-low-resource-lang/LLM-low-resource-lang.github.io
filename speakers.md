@@ -18,8 +18,6 @@ bodyClass: page-archive
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
 <p><img src="{{site.baseurl}}/assets/images/Sabri.png" alt="Sabri Boughorbel" style="float: left; margin-right: 10px;" class="responsive-image"/></p> [Sabri Boughorbel](https://scholar.google.nl/citations?user=EhFf3j0AAAAJ&hl=en) is a Scientist at QCRI, HBKU. He received his PhD in Machine Learning from the university of Paris Sud. He has an extensive experience in Machine Learning for industrial and academic research. He authored more than 70 peer-reviewed papers and 7 patents. He was awarded several grants in the intersection of machine learning and health. His current research is on leveraging open-sourced LLMs for low-resource languages and developing multi-modal language models. He serves as PC member of top-tier machine learning conferences. In 2023, he co-organized a workshop on [AI for Medicine](https://www.sidra.org/events/pediatric/artificial-Intelligence-and-medicine/?page_id=1447).
 <br/>
 <br/>
