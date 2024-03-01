@@ -28,7 +28,7 @@
       </div>
   </div> -->
   <!-- end preloader -->
-  
+
   <div id="wrapper" class="wrapper">
     <!-- Header -->
 <header class="header is-sticky is-shrink">
@@ -149,7 +149,7 @@
                     </a> -->
                     
                         <p class="widget-text">
-                            &copy;2023 Coyright BY-NC-SA 4.0
+                            &copy;2024 Coyright BY-NC-SA 4.0
                         </p>
                     
                 </div>
@@ -169,5 +169,51 @@
   <script type="text/javascript" src="/assets/js/jquery.contentify.js"></script>
   <script type="text/javascript" src="/assets/js/essential.js"></script>
   
+
+  <style>
+  /* Style for devices with width less than 600px */
+  @media (max-width: 600px) {
+    .responsive-image {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+  overflow: hidden; /* This ensures the content does not flow outside the border-radius */
+  /* width: 100px; /* Adjust based on your preference */ */
+  /* height: 100px; /* Make sure this is equal to the width for a perfect circle */ */
+  display: inline-block; /* This helps with the alignment and ensures the dimensions are respected */
+  object-fit: cover; /* This ensures the image covers the area without distorting its aspect ratio */
+    }
+  }
+
+  /* Style for devices with width between 600px and 1200px */
+  @media (min-width: 601px) and (max-width: 1200px) {
+    .responsive-image {
+      width: 50%;
+      height: auto;
+      border-radius: 50%;
+        overflow: hidden; /* This ensures the content does not flow outside the border-radius */
+        /* width: 100px; /* Adjust based on your preference */ */
+        /* height: 100px; /* Make sure this is equal to the width for a perfect circle */ */
+        display: inline-block; /* This helps with the alignment and ensures the dimensions are respected */
+        object-fit: cover; /* This ensures the image covers the area without distorting its aspect ratio */
+    }
+  }
+
+  /* Style for devices with width more than 1200px */
+  @media (min-width: 1201px) {
+    .responsive-image {
+      width: 25%;
+      height: auto;
+      border-radius: 50%;
+        overflow: hidden; /* This ensures the content does not flow outside the border-radius */
+        /* width: 100px; /* Adjust based on your preference */ */
+        /* height: 100px; /* Make sure this is equal to the width for a perfect circle */ */
+        display: inline-block; /* This helps with the alignment and ensures the dimensions are respected */
+        object-fit: cover; /* This ensures the image covers the area without distorting its aspect ratio */
+    }
+  }
+
+  </style>
+
 </body>
 </html>
