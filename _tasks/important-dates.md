@@ -12,4 +12,6 @@ layout: content
 ---
 
 
-Thursday, 21 March 2024
+**Date:** Thursday, 21 March 2024
+
+**Time:** 14:00 - 17:30

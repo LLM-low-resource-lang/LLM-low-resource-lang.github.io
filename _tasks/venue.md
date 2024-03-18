@@ -13,4 +13,4 @@ layout: content
 
 [EACL 2024](https://2024.eacl.org/)
 
-It will take place at the Hotel Radisson Blu, St. Julians, in Malta
+**Place:** Fortress 2 Ballroom (Level -1), Corinthia St. George’s Bay Hotel, Malta.

@@ -20,7 +20,7 @@ primary:
       - name: "Content"
         url: "/table_of_content/"
         weight: 3
-      - name: "Papers"
+      - name: "Reading list"
         url: "/reading_list/"
         weight: 4
 
