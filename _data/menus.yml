@@ -18,7 +18,7 @@ primary:
         url: "/speakers/"
         weight: 2
       - name: "Content"
-        url: "/table_of_content/"
+        url: "/content/"
         weight: 3
       - name: "Reading list"
         url: "/reading_list/"
