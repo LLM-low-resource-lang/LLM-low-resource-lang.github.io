@@ -7,23 +7,23 @@ bodyClass: page-task1
 
 
 ## Table of Content
-Slides will be available soon. 
+[All Slides](content/LLMs_for_Low_Resource_Languages.pdf)
 
-- Introduction [20 mins]
-- Models and their capabilities for low-resource languages [90 mins]
+- Introduction [20 mins] [Slides](content/introduction.pdf)
+- Models and their capabilities for low-resource languages [70 mins] [Slides](content/models.pdf)
   - NLP models [40 mins]   
   - Multimodality [30 mins]
     -  Overview
     - Multimodality
     - Speech
 - Coffee break [30 mins]
-- Prompting + Benchmarking tools [60 mins]
+- Prompting + Benchmarking tools [60 mins] [Slides](content/prompting.pdf)
   - Prompting [40 min]
     - Prompt Engineering
     - Prompting techniques
     - Cross-/mutli-lingual prompting
   - Prompt and Benchmarking tools [15 mins]
-- Other Related Aspects [20 mins]
+- Other Related Aspects [20 mins] [Slides](content/related_aspects.pdf)
   - Cultural Bias
   - Misinformation Generation/Detection
   - Hellucination
