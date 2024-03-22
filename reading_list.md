@@ -70,4 +70,63 @@ bodyClass: page-task1
 
 ### Prompting + Benchmarking tools
 
+- Wei, Jason, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Fei Xia, Ed Chi, Quoc V. Le, and Denny Zhou. "Chain-of-thought prompting elicits reasoning in large language models." Advances in neural information processing systems 35 (2022): 24824-24837.
+
+- Kojima, Takeshi, Shixiang Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. "Large language models are zero-shot reasoners." Advances in neural information processing systems 35 (2022): 22199-22213.
+
+- Yao, Shunyu, Dian Yu, Jeffrey Zhao, Izhak Shafran, Tom Griffiths, Yuan Cao, and Karthik Narasimhan. "Tree of thoughts: Deliberate problem solving with large language models." Advances in Neural Information Processing Systems 36 (2024).
+
+- Besta, Maciej, Nils Blach, Ales Kubicek, Robert Gerstenberger, Lukas Gianinazzi, Joanna Gajda, Tomasz Lehmann et al. "Graph of thoughts: Solving elaborate problems with large language models." arXiv preprint arXiv:2308.09687 (2023).
+
+- Huang, Haoyang, Tianyi Tang, Dongdong Zhang, Wayne Xin Zhao, Ting Song, Yan Xia, and Furu Wei. "Not All Languages Are Created Equal in LLMs: Improving Multilingual Capability by Cross-Lingual-Thought Prompting." In Findings of the Association for Computational Linguistics: EMNLP 2023, pp. 12365-12394. 2023.
+
+- Qin, Libo, Qiguang Chen, Fuxuan Wei, Shijue Huang, and Wanxiang Che. "Cross-lingual Prompting: Improving Zero-shot Chain-of-Thought Reasoning across Languages." In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 2695-2709. 2023.
+
+- Ranaldi, Leonardo, and Fabio Massimo Zanzotto. "Empowering multi-step reasoning across languages via tree-of-thoughts." arXiv preprint arXiv:2311.08097 (2023).
+
+- Madaan, Aman, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon et al. "Self-refine: Iterative refinement with self-feedback." Advances in Neural Information Processing Systems 36 (2024).
+
+- Brown, Tom, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared D. Kaplan, Prafulla Dhariwal, Arvind Neelakantan et al. "Language models are few-shot learners." Advances in neural information processing systems 33 (2020): 1877-1901.
+
+- Gao, Yunfan, Yun Xiong, Xinyu Gao, Kangxiang Jia, Jinliu Pan, Yuxi Bi, Yi Dai, Jiawei Sun, and Haofen Wang. "Retrieval-augmented generation for large language models: A survey." arXiv preprint arXiv:2312.10997 (2023).
+
+- Guo, Jiaxian, Junnan Li, Dongxu Li, Anthony Meng Huat Tiong, Boyang Li, Dacheng Tao, and Steven Hoi. "From images to textual prompts: Zero-shot visual question answering with frozen large language models." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 10867-10877. 2023.
+
+
+
 ### Other Related Aspects (Cultural Bias, Misinformation, Hellucination, Jailbreaking, ...)
+- Bach, Stephen H., Victor Sanh, Zheng-Xin Yong, Albert Webson, Colin Raffel, Nihal V. Nayak, Abheesht Sharma et al. "Promptsource: An integrated development environment and repository for natural language prompts." arXiv preprint arXiv:2202.01279 (2022).
+
+- Dalvi, Fahim, Maram Hasanain, Sabri Boughorbel, Basel Mousi, Samir Abdaljalil, Nizi Nazar, Ahmed Abdelali, Shammur Absar Chowdhury, Hamdy Mubarak, and Ahmed Ali. "{LLM}e{B}ench: A Flexible Framework for Accelerating {LLM}s Benchmarking." In Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations, edited by Nikolaos Aletras and Orphee De Clercq, 214–222. St. Julians, Malta: Association for Computational Linguistics, 2024. https://aclanthology.org/2024.eacl-demo.23.
+
+- Wu, Zhenyu, Yaoxiang Wang, Jiacheng Ye, Zhiyong Wu, Jiangtao Feng, Jingjing Xu, and Yu Qiao. "OpenICL: An Open-Source Framework for In-context Learning." In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 3: System Demonstrations), pp. 489-498. 2023.
+
+- Gao, Leo, Jonathan Tow, Stella Biderman, Sid Black, Anthony DiPofi, Charles Foster, Laurence Golding et al. "A framework for few-shot language model evaluation." Version v0. 0.1. Sept (2021): 8.
+
+- Zhu, Kaijie, Qinlin Zhao, Hao Chen, Jindong Wang, and Xing Xie. "Promptbench: A unified library for evaluation of large language models." arXiv preprint arXiv:2312.07910 (2023).
+
+- Zheng, Lianmin, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin et al. "Judging llm-as-a-judge with mt-bench and chatbot arena." Advances in Neural Information Processing Systems 36 (2024).
+
+- Naous, Tarek, Michael J. Ryan, and Wei Xu. "Having beer after prayer? measuring cultural bias in large language models." arXiv preprint arXiv:2305.14456 (2023).
+
+- AlKhamissi, Badr, Muhammad ElNokrashy, Mai AlKhamissi, and Mona Diab. "Investigating Cultural Alignment of Large Language Models." arXiv preprint arXiv:2402.13231 (2024).
+
+- Chen, Canyu, and Kai Shu. "Combating misinformation in the age of llms: Opportunities and challenges." arXiv preprint arXiv:2311.05656 (2023).
+
+- Chen, Canyu, and Kai Shu. "Combating misinformation in the age of llms: Opportunities and challenges." arXiv preprint arXiv:2311.05656 (2023).
+
+- Chen, Canyu, and Kai Shu. "Can LLM-Generated Misinformation Be Detected?." In The Twelfth International Conference on Learning Representations. 2023.
+
+- Rawte, Vipula, Amit Sheth, and Amitava Das. "A survey of hallucination in large foundation models." arXiv preprint arXiv:2309.05922 (2023).
+
+- Li, Junyi, Xiaoxue Cheng, Wayne Xin Zhao, Jian-Yun Nie, and Ji-Rong Wen. "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models." In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 6449-6464. 2023.
+
+- Li, Yifan, Yifan Du, Kun Zhou, Jinpeng Wang, Wayne Xin Zhao, and Ji-Rong Wen. "Evaluating Object Hallucination in Large Vision-Language Models." In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pp. 292-305. 2023.
+
+- Huang, Lei, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen et al. "A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions." arXiv preprint arXiv:2311.05232 (2023).
+
+- Kang, Haoqiang, Terra Blevins, and Luke Zettlemoyer. "Comparing hallucination detection metrics for multilingual generation." arXiv preprint arXiv:2402.10496 (2024).
+
+- Yong, Zheng Xin, Cristina Menghini, and Stephen Bach. "Low-Resource Languages Jailbreak GPT-4." In Socially Responsible Language Modelling Research. 2023.
+
+- Luccioni, Alexandra Sasha, Sylvain Viguier, and Anne-Laure Ligozat. "Estimating the carbon footprint of bloom, a 176b parameter language model." Journal of Machine Learning Research 24, no. 253 (2023): 1-15.
